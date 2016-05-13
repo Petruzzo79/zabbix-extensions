@@ -1,4 +1,4 @@
-Zabbix tamplate for Storecli
+Zabbix template for Storecli
 ============================
 
 Install guide
@@ -18,7 +18,9 @@ Set cron copy `zabbix.storcli` in host:
 Add the line
 
 `zabbix ALL=(ALL) NOPASSWD:/usr/libexec/zabbix-extensions/scripts/`
-
-Import **hwraid-megacli-template.xml** in zabbix Server
+ in sudoers file
+ 
+Import **hwraid-storcli-template.xml** in zabbix Server
 
 > nb. you must set "Hostname" parameter in zabbix_agentd.conf file (must be the same of the Host on the Zabbix Server)
+> nb2. must be installed sudo 
