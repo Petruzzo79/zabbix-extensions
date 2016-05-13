@@ -1,0 +1,4 @@
+# Author:	Lesovsky A.V. <lesovsky@gmail.com>
+# Author: 	Petruzzo79    <pietrolombardo79@gmail.com>
+# Description:	MegaCLI data gathering, analyzing, and sending.
+0 */1 * * *	root /usr/libexec/zabbix-extensions/scripts/storcli-raid-data-processor.sh
